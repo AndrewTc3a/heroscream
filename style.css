@@ -1,0 +1,79 @@
+body {
+    color: rgb(0, 180, 180);
+    background-color: rgb(30, 28, 60); /* Fundo azul escuro */
+    margin: 0;
+    font-family: "Arimo", sans-serif;
+}
+
+.site-header {
+    border-bottom: 3px solid rgb(28, 210, 210); /* Cor do cabeçalho */
+    padding: 15px;
+    font-size: 36px;
+    color: rgb(28, 210, 210); /* Cor do texto do cabeçalho */
+    text-align: center;
+}
+
+.main-highlight {
+    background-color: rgb(65, 45, 130); /* Cor do fundo principal */
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlight-text {
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 38px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 30px;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.video-gallery a {
+    display: block;
+}
+
+.video-gallery img {
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: opacity 0.3s ease, border 0.3s ease;
+}
+
+.video-gallery img:hover {
+    opacity: 1.0;
+    border: 2px solid cyan;
+}
+
+.category {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.category h2 {
+    color: rgb(28, 210, 210); /* Cor dos títulos das categorias */
+    text-align: center;
+}
